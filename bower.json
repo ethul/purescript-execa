@@ -1,0 +1,17 @@
+{
+  "name": "purescript-execa",
+  "description": "PureScript wrapper for execa",
+  "keywords": [
+    "purescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ethul/purescript-execa.git"
+  },
+  "ignore": [
+    "*",
+    "!src/**/*",
+    "!LICENSE"
+  ]
+}
