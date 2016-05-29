@@ -4,10 +4,12 @@
   "scripts": {
     "psc:server": "psc-ide-server --port 4290 --debug",
     "psc:watch": "pscid -p 4290",
-    "build": "pulp build --force"
+    "build": "pulp build --force",
+    "test": "pulp test --force"
   },
   "files": [],
   "devDependencies": {
+    "execa": "https://github.com/sindresorhus/execa/archive/98a647acc90a2358f2264856af4ede410bc429f4.tar.gz",
     "pscid": "^1.7.2",
     "purescript": "^0.8.5"
   }

@@ -13,5 +13,14 @@
     "*",
     "!src/**/*",
     "!LICENSE"
-  ]
+  ],
+  "dependencies": {
+    "purescript-aff": "~0.16.1",
+    "purescript-options": "purescript-contrib/purescript-options#3123fcdcde26df92229811cfeada649d21ac7d93",
+    "purescript-posix-types": "~0.1.1",
+    "purescript-node-buffer": "~0.2.2"
+  },
+  "devDependencies": {
+    "purescript-console": "~0.1.1"
+  }
 }
